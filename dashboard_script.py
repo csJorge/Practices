@@ -1,0 +1,1 @@
+import pandas as pd\nimport matplotlib.pyplot as plt\n\ndef generate_dashboard(data_file):\n    df = pd.read_csv(data_file)\n    print('Dashboard generated.')\n\n# Ejemplo de uso (simulado)\n# generate_dashboard('data.csv')
